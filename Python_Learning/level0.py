@@ -70,4 +70,23 @@ sentence1 = "Hello"
 sentence2 = "World"
 print(sentence1, sentence2)
 
-#17. 
+#17. Write a program to get the user's favorite subject as input and print it.
+subject = input("Enter your favorite subject: ")
+print(subject)
+
+#18. Write a program to print "Welcome to Python Class" using the print() function.
+print("Welcome to Python Class")
+
+#19. Write a program to get the user's city name as input and print it.
+city = input("Enter your city name: ")
+print(city)
+
+#20. Write a program to print three different messages using three print() statements.
+print("Welcome..!")
+print("Everyone to")
+print("Placement training")
+
+#21. Write a program to print your name and age separated by ":" using sep.
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print(name, age, sep=":")
