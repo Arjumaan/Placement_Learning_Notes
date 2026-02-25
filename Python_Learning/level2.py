@@ -114,23 +114,23 @@ if units <= 100:
 elif units <= 300:
     print("Total amount is", units * 3)
 else:
-    print("Total amount is", units * 5) 
+    print("Total amount is", units * 5)
 
 #14. Write a program to check whether a given number is a valid triangle angle set (Sum of three angles = 180). 
 num1 = int(input("Enter num1: "))
 num2 = int(input("Enter num2: "))
 num3 = int(input("Enter num3: "))
 if num1 + num2 + num3 == 180:
-    print("Valid triangle angle set")
+    print("Valid triangle angle set. Total Sum = 180 degrees.")
 else:
     print("Invalid triangle angle set")
 
 #15. Write a program to calculate salary bonus: if years of experience >= 5 10% bonus, else no bonus.
 experience = int(input("Enter years of experience: "))
-salary = int(input("Enter salary: "))
+salary = int(input("Enter salary amount: "))
 if experience >= 5:
-    print("Bonus amount is", salary * 0.10)
-    print("Total amount is", salary + (salary * 0.10))
+    print("Bonus amount: ", salary * 0.10)
+    print("Total salary: ", salary + (salary * 0.10))
 else:
-    print("No bonus")
-    print("Total amount is", salary)
+    print("No bonus.")
+    print("Total salary: ", salary)
